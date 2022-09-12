@@ -1,0 +1,154 @@
+.object-detail-wrapper {
+	margin-top: 4%;
+	margin-left: 2%;
+
+	.object-details {
+		padding: 2%;
+		width: 30%;
+		align-self: start;
+
+		.detail-component {
+			margin: 5% 5% 3% 0%;
+			text-align: center;
+			font-size: large;
+
+			.object-image {
+				border: 2px solid #d4d4d4;
+				height: 15em;
+				width: 15em;
+				object-fit: cover;
+			}
+			.object-username {
+				margin-top: 2%;
+			}
+			.confirm-yes {
+				background-color: #121212;
+				color: #d4d4d4;
+				border: 2px solid #d4d4d4;
+			}
+			.confirm-yes:hover {
+				background-color: rgba(14, 173, 105, 0.65);
+				color: #121212;
+				text-decoration: underline;
+			}
+			.confirm-no {
+				background-color: #121212;
+				color: #d4d4d4;
+				border: 2px solid #d4d4d4;
+			}
+			.confirm-no:hover {
+				background-color: rgba(255, 89, 94, 0.65);
+				color: #121212;
+				text-decoration: underline;
+			}
+			.confirm-accept {
+				background-color: #121212;
+				color: #d4d4d4;
+				border: 3px solid #d4d4d4;
+				width: 30%;
+			}
+			.confirm-accept:hover {
+				background-color: rgba(14, 173, 105, 0.65);
+				color: #121212;
+				text-decoration: underline;
+			}
+			.confirm-reject {
+				background-color: #121212;
+				color: #d4d4d4;
+				border: 3px solid #d4d4d4;
+				width: 30%;
+				margin-left: 15%;
+			}
+			.confirm-reject:hover {
+				background-color: rgba(255, 89, 94, 0.65);
+				color: #121212;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.object-problemset-wrapper {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 3%;
+
+	.object-problemset {
+		flex-basis: 35%;
+		font-size: medium;
+
+		.problemset-container {
+			padding: 5%;
+			width: 100%;
+
+			.object-problemset-heading {
+				font-size: large;
+			}
+
+			.object-problemset-table,
+			td {
+				color: #d6d6d6;
+				border: 2.5px solid #d6d6d6;
+				border-collapse: collapse;
+				text-align: center;
+				width: 100%;
+
+				tr {
+					height: 38px;
+				}
+				.list-index {
+					width: 10%;
+				}
+				.list-name {
+					width: 90%;
+					padding-left: 2%;
+					text-align: left;
+					cursor: pointer;
+				}
+				.active {
+					color: rgba(25, 130, 196, 1);
+				}
+				.list-name:hover {
+					text-decoration: underline;
+				}
+			}
+			.empty {
+				font-size: large;
+				margin-left: 5%;
+			}
+		}
+	}
+	.list-item-wrapper {
+		font-size: medium;
+		flex-basis: 40%;
+		margin-left: 10%;
+		margin-right: 5%;
+
+		.playlist-name {
+			font-size: large;
+		}
+		table,
+		td {
+			color: #d6d6d6;
+			border: 2.5px solid #d6d6d6;
+			border-collapse: collapse;
+			text-align: center;
+			width: 100%;
+		}
+		tr {
+			height: 38px;
+		}
+		.list-item-index {
+			width: 7%;
+		}
+		.list-item {
+			width: 93%;
+			padding-left: 2%;
+			text-align: left;
+			cursor: pointer;
+		}
+		.list-item-title {
+			color: #d6d6d6;
+		}
+	}
+}

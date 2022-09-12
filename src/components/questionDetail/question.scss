@@ -1,0 +1,78 @@
+.wrapper {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 6%;
+
+	.problem-statement {
+		flex-grow: 1;
+		justify-content: space-between;
+		line-height: 200%;
+
+		.statement {
+			font-size: 40px;
+			font-family: VT323;
+			.title {
+				font-family: "Space Mono";
+				font-size: 25px;
+			}
+		}
+		.question {
+			margin-top: 3%;
+			display: flex;
+			align-items: baseline;
+			.link-text {
+				.link {
+					font-size: 20px;
+					color: #0ead69;
+				}
+			}
+			.fav {
+				padding-left: 5rem;
+				.button {
+					font-size: 20px;
+					background-color: #121212;
+					color: #d4d4d4;
+					border: transparent;
+					height: 2.5rem;
+				}
+				.button:hover {
+					color: #0ead69;
+					text-decoration: underline;
+				}
+				.message {
+					font-size: 20px;
+					background-color: #121212;
+					color: #0ead69;
+					border: transparent;
+					height: 2.5rem;
+					cursor: default;
+				}
+			}
+		}
+	}
+	.comments-container {
+		width: 100%;
+		margin-top: 5%;
+		margin-left: 20%;
+		.comments-form {
+			width: 58%;
+			.comment-submit-btn {
+				color: #d6d6d6;
+				background-color: #121212;
+				cursor: pointer;
+				border: 2px solid #d4d4d4;
+				font-size: large;
+				margin-top: 2%;
+			}
+			.comment-submit-btn:hover {
+				background-color: rgba(14, 173, 105, 0.65);
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+		.comment-container {
+			width: 100;
+			margin-left: 0%;
+		}
+	}
+}

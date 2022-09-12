@@ -1,0 +1,45 @@
+.contain {
+	display: flex;
+	margin-bottom: 8%;
+
+	.problemset {
+		display: flex;
+		font-size: medium;
+		flex-direction: column;
+		width: 65%;
+		margin: 10% 0% 0% 12.5%;
+
+		table,
+		th,
+		td {
+			color: #d6d6d6;
+			border: 2.5px solid #d6d6d6;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		.col31 {
+			width: 12%;
+		}
+		tr {
+			height: 38px;
+		}
+		.col1 {
+			width: 5%;
+		}
+		.col2 {
+			padding-left: 10px;
+			text-align: left;
+			.question-title {
+				color: #d6d6d6;
+			}
+		}
+		.col3 {
+			width: 12%;
+			cursor: pointer;
+		}
+	}
+}
+
+h6 {
+	color: #d6d6d6;
+}

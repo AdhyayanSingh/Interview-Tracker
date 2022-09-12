@@ -1,0 +1,24 @@
+.pages {
+	font-size: 22px;
+	display: flex;
+	color: #d4d4d4;
+	margin: 10% 0% 0% 10%;
+
+	.page {
+		padding-right: 10px;
+	}
+
+	.pageitem {
+		padding-left: 0px;
+
+		.link {
+			text-decoration: none;
+			color: #d4d4d4;
+		}
+
+		.active {
+			color: rgba(25, 130, 196, 1);
+			text-decoration: underline;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.form-wrapper {
+	background-color: #121212;
+	font-size: large;
+	border: 4px solid #d4d4d4;
+	text-align: center;
+
+	.form-content {
+		padding: 4% 7% 4% 7%;
+		margin-top: 2%;
+	}
+	.create-button {
+		background-color: #121212;
+		border: 2px solid #d4d4d4;
+		color: #d4d4d4;
+		padding: 0 4% 0 4%;
+	}
+	.create-button:hover {
+		background-color: rgba(14, 173, 105, 0.65);
+		text-decoration: underline;
+	}
+}

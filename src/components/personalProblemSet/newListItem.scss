@@ -1,0 +1,19 @@
+.form-wrapper {
+	background-color: #121212;
+	width: 100%;
+
+	.form-content {
+		padding: 4% 7% 4% 7%;
+		margin-top: 2%;
+	}
+	.submit-btn {
+		background-color: #121212;
+		border: 2px solid #d4d4d4;
+		color: #d4d4d4;
+		padding: 0 4% 0 4%;
+	}
+	.submit-btn:hover {
+		background-color: rgba(14, 173, 105, 0.65);
+		text-decoration: underline;
+	}
+}

@@ -1,0 +1,93 @@
+.wrapper1 {
+	margin: 8% 5% 5% 5%;
+
+	.search-user {
+		width: 100%;
+		margin-left: 30%;
+
+		.search-form-container {
+			display: flex;
+			align-items: baseline;
+
+			.form-group {
+				flex-basis: 30%;
+			}
+			.search-submit {
+				margin-left: 1%;
+				font-size: 17px;
+				background-color: #121212;
+				color: #d4d4d4;
+				border: 3px solid #d4d4d4;
+				height: 44px;
+			}
+			.search-submit:hover {
+				background-color: rgba(25, 130, 196, 0.65);
+				color: #121212;
+				text-decoration: underline;
+			}
+		}
+
+	}
+	.friends-container {
+		display: flex;
+		margin-top: 3%;
+
+		.friendRequest,
+		.friends {
+			display: flex;
+			font-size: medium;
+			flex-direction: column;
+			width: 40%;
+			table,
+			td {
+				color: #d6d6d6;
+				border: 2.5px solid #d6d6d6;
+				border-collapse: collapse;
+				text-align: center;
+			}
+			tr {
+				height: 38px;
+			}
+			.col1 {
+				width: 8%;
+			}
+			.col2 {
+				padding-left: 10px;
+				text-align: left;
+				.username {
+					color: #d6d6d6;
+				}
+			}
+			.accept,
+			.reject {
+				width: 15%;
+				cursor: pointer;
+			}
+			.accept:hover {
+				background-color: rgba(14, 173, 105, 0.65);
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			.reject:hover {
+				background-color: rgba(255, 89, 94, 0.65);
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			.unfriend {
+				width: 20%;
+			}
+			.unfriend:hover {
+				background-color: rgba(255, 89, 94, 0.65);
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+		.friendRequest {
+			margin-left: 15%;
+		}
+	}
+}
+
+h6 {
+	color: #d6d6d6;
+}
