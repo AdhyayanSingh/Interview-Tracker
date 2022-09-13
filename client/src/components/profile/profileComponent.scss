@@ -1,0 +1,60 @@
+.profile {
+	margin-top: 8%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	.forms {
+
+		.form {
+			display: flex;
+			// align-items: baseline;
+			button {
+				margin-top: 42px;
+				margin-left: 10px;
+				height: 45px;
+				background-color: #121212;
+				color: #d4d4d4;
+				border: 3px solid #d4d4d4;
+			}
+			button:hover {
+				background-color: rgba(14, 173, 105, 0.65);
+				color: #121212;
+				text-decoration: underline;
+			}
+			.form-control {
+				width: 25rem;
+			}
+			input::-webkit-file-upload-button {
+				visibility: hidden;
+			}
+			input::before {
+				content: "Select Photo";
+				display: inline-block;
+				width: 10%;
+				text-decoration: underline;
+				outline: none;
+				white-space: nowrap;
+				cursor: pointer;
+			}
+		}
+		.change-password {
+			text-decoration: none;
+			color: #d4d4d4;
+			border: 3px solid #d4d4d4;
+			padding: 5px;
+		}
+	}
+	.user {
+		align-items: center;
+		text-align: center;
+		.username {
+			margin-top: 2%;
+		}
+		.img {
+			width: 15em;
+			height: 15em;
+			object-fit: cover;
+			border: 4px solid #d4d4d4;
+		}
+	}
+}

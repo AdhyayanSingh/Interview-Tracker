@@ -1,0 +1,56 @@
+.login {
+	width: 35%;
+	margin-left: 32.5%;
+
+	.signup-form {
+		margin-top: 20%;
+	}
+
+	.login-form {
+		margin-top: 27%;
+	}
+
+	.form {
+		font-family: "VT323";
+		font-size: 30px;
+		color: #d4d4d4;
+
+		.forgotPass {
+			text-decoration: none;
+			color: #d4d4d4;
+		}
+		.on-hover-green {
+			cursor: pointer;
+		}
+		.on-hover-green:hover {
+			color: #0ead69;
+			text-decoration: underline;
+		}
+		.on-hover-red {
+			cursor: pointer;
+		}
+		.on-hover-red:hover {
+			color: #ff595e;
+			text-decoration: underline;
+		}
+		.options {
+			font-family: "Space Mono";
+			font-size: 16px;
+			margin-top: -14px;
+			margin-bottom: 4%;
+		}
+		button {
+			margin-left: 40%;
+			font-size: 24px;
+			background-color: #121212;
+			width: 20%;
+			color: #d4d4d4;
+			border: 3px solid #d4d4d4;
+		}
+		button:hover {
+			background-color: rgba(14, 173, 105, 0.65);
+			color: #121212;
+			text-decoration: underline;
+		}
+	}
+}
